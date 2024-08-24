@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #fff;
+  --secondary: black;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+}
